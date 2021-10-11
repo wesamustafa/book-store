@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book store</title>
+    <!-- font awsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header section start -->
+    <header class="header">
+        <div class="header-1">
+            <a href="#" class="logo"> <i class="fas fa-book"></i> bookly</a>
+            <form action="" class="search-form">
+                <input type="search" placeholder="search here..." id="search-box">
+                <label for="search-box"> <i class="fas fa-search"></i> </label>
+            </form>
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#" id="#home">home</a>
+                <a href="#" id="#featured">featured</a>
+                <a href="#" id="#arrivals">arrivals</a>
+                <a href="#" id="#reviews">reviews</a>
+                <a href="#" id="#blogs">blogs</a>
+            </nav>
+        </div>
+    </header>
+    <!-- header section end -->
+    <!-- bottom navbar start -->
+    <nav class="bottom-navbar">
+        <a href="#" id="#home" class="fas fa-home"></a>
+        <a href="#" id="#featured" class="fas fa-list"></a>
+        <a href="#" id="#arrivals" class="fas fa-tags"></a>
+        <a href="#" id="#reviews" class="fas fa-comments"></a>
+        <a href="#" id="#blogs" class="fas fa-blog"></a>
+    </nav>
+    <!-- bottom navbar end -->
+    <!-- login form start -->
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fas fa-times"></div>
+        <form action="">
+            <h3>sign in</h3>
+            <label>email</label>
+            <input type="email" class="box" placeholder="enter your email">
+            <label>password</label>
+            <input type="password" class="box" placeholder="enter your password">
+            <div class="checkbox">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>forget password ? <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create one</a></p>
+        </form>
+    </div>
+    <!-- login form end -->
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
