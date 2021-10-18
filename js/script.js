@@ -31,3 +31,26 @@ document.querySelector("#close-login-btn").onclick = () => {
 }
 // login form end
 // header end
+// home section start
+// swiper start
+var swiper = new Swiper(".books-slider", {
+    loop: true,
+    CenteredSlides: true,
+    autoplay: {
+        delay: 9500,
+        disableOnInteractions: false
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+    },
+});
+// swiper end
+// home section end
