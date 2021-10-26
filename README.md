@@ -4,4 +4,5 @@
 #####  ✅responsive home section with book self slider using swiper.js.
 #####  ✅responsive icons section using css grid.
 #####  ✅responsive featured card section with touch slider using swiper.js.
-#####  ✅ responsive newsletter section with parallax background.
+#####  ✅responsive newsletter section with parallax background.
+#####  ✅responsive arrivals card section with touch slider using swiper.js

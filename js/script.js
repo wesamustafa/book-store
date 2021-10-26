@@ -83,3 +83,25 @@ var swiper = new Swiper(".featured-slider", {
     },
 });
 // featured section end
+// arrivals section start
+var swiper = new Swiper(".arrivals-slider", {
+    spaceBetween: 10,
+    loop: true,
+    CenteredSlides: true,
+    autoplay: {
+        delay: 9500,
+        disableOnInteractions: false
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+    },
+});
+// arrivals section end
