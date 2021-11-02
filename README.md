@@ -7,3 +7,4 @@
 #####  ✅responsive newsletter section with parallax background.
 #####  ✅responsive arrivals card section with touch slider using swiper.js
 #####  ✅responsive deals section using css flexbox.
+#####  ✅ responsive testimonial card section with touch slider using swiper.js

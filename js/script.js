@@ -105,3 +105,26 @@ var swiper = new Swiper(".arrivals-slider", {
     },
 });
 // arrivals section end
+// reviews section start
+var swiper = new Swiper(".reviews-slider", {
+    spaceBetween: 10,
+    loop: true,
+    CenteredSlides: true,
+    grabCursor: true,
+    autoplay: {
+        delay: 9500,
+        disableOnInteractions: false
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+    },
+});
+// reviews section end
