@@ -626,6 +626,26 @@ footer .credit span{
     color: var(--green);
 }
 /* footer end */
+/* loader start */
+.loader-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    background: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader-container img{
+    height: 10rem;
+}
+.loader-container.active{
+    display: none;
+}
+/* loader end */
 /* media queries start */
 @media(max-width:991px){
     html{

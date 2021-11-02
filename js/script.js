@@ -151,3 +151,12 @@ var swiper = new Swiper(".blogs-slider", {
     },
 });
 // blogs section end
+// loader start
+function loader() {
+    document.querySelector(".loader-container").classList.add("active");
+}
+function fadeOut() {
+    setTimeout(loader, 4000);
+}
+fadeOut();
+// loader end
