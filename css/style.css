@@ -505,6 +505,7 @@ section{
     border:var(--border);
     padding:2rem;
     text-align: center;
+    margin: 2rem 0;
 }
 .reviews .reviews-slider .box:hover{
     border:var(--border-hover);
@@ -531,6 +532,41 @@ section{
     color: var(--green);
 }
 /* reviews section end */
+/* blogs section start */
+.blogs .blogs-slider .box{
+    margin: 2rem 0;
+    border:var(--border);
+}
+.blogs .blogs-slider .box:hover{
+    border:var(--border-hover);
+}
+.blogs .blogs-slider .box .image{
+    width: 100%;
+    height: 25rem;
+    overflow: hidden;
+}
+.blogs .blogs-slider .box .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blogs .blogs-slider .box:hover .image img{
+    transform: scale(1.1);
+}
+.blogs .blogs-slider .box .content{
+    padding: 1.5rem;
+}
+.blogs .blogs-slider .box .content h3{
+    font-size: 2.2rem;
+    color: var(--black);
+}
+.blogs .blogs-slider .box .content p{
+    font-size: 1.4rem;
+    color: var(--light-color);
+    line-height: 2;
+    padding: 1rem 0;
+}
+/* blogs section end */
 /* media queries start */
 @media(max-width:991px){
     html{

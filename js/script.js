@@ -128,3 +128,26 @@ var swiper = new Swiper(".reviews-slider", {
     },
 });
 // reviews section end
+// blogs section start
+var swiper = new Swiper(".blogs-slider", {
+    spaceBetween: 10,
+    loop: true,
+    CenteredSlides: true,
+    grabCursor: true,
+    autoplay: {
+        delay: 9500,
+        disableOnInteractions: false
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+    },
+});
+// blogs section end
